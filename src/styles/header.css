@@ -3,14 +3,14 @@ header {
     padding: 28px 8%;
 }
 
-#nAvbar{
+#navbar {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#nav_Logo{
+#nav_Logo {
     font-size: 24px;
     color: #e9a209;
 }
@@ -22,14 +22,10 @@ header {
 }
 
 .nav-item a {
-text-decoration: none;
-color: #1d1d1dad;
-font-weight: 600;
-}
-
-.nav-item a {
-color: #1d1d1d;
-border-bottom:3px solid #ffe100;
+    text-decoration: none;
+    color: #1d1d1d; /* Cor ajustada */
+    font-weight: 600;
+    border-bottom: 3px solid #ffe100; /* Border combinada */
 }
 
 #mobile_btn {
@@ -40,8 +36,8 @@ border-bottom:3px solid #ffe100;
     display: none;
 }
 
-@media screen and (max-width:1170px) {
-    #nav_list, 
+@media screen and (max-width: 1170px) {
+    #nav_list,
     #navbar .btn-default {
         display: none;
     }
@@ -51,26 +47,34 @@ border-bottom:3px solid #ffe100;
         background-color: transparent;
         font-size: 1.5rem;
         cursor: pointer;
-
     }
-    
     #mobile_menu.active {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
-    #mobile_nav_list{
+    #mobile_nav_list {
         display: flex;
         flex-direction: column;
         gap: 12px;
-        margin:  12px 0px;
+        margin: 12px 0;
     }
-    #mobile_nav_list .nav-item{
+    #mobile_nav_list .nav-item {
         list-style: none;
         text-align: center;
-        
     }
-
-
+    #home {
+        min-height: 100%;
+        padding-top: 0;
+    }
+    #banner,
+    #banner img,
+    #home.shape {
+        display: none;
+    }
+    #cta {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
 }
