@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/styles.css">
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>Landing page</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page Bruno Rambo</title>
 </head>
 <body>
     <header>
         <nav id="navbar">
-            <i class="fas fa-hamburger" id="nav_logo"> food</i>
+            <i class="fa-solid fa-burger" id="nav_logo"> RAMBOW</i>
 
             <ul id="nav_list">
                 <li class="nav-item active">
@@ -31,7 +32,7 @@
             </button>
 
             <button id="mobile_btn">
-                <i class="fas fa-bars"></i>
+                <i class="fa-solid fa-bars"></i>
             </button>
         </nav>
 
@@ -52,73 +53,72 @@
                 Peça aqui
             </button>
         </div>
-    </header> 
+    </header>
 
     <main id="content">
         <section id="home">
             <div class="shape"></div>
             <div id="cta">
                 <h1 class="title">
-                    O sabor vai até
+                    O sabor que vai até
                     <span>você</span>
                 </h1>
 
                 <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit ut aliquam, purus sit amet
+                    No Rambow, cada visita é uma experiência culinária única, onde o sabor e a qualidade se encontram em perfeita harmonia. Em um ambiente acolhedor e sofisticado, oferecemos uma seleção de pratos elaborados com ingredientes frescos e de alta qualidade
                 </p>
 
                 <div id="cta_buttons">
                     <a href="#" class="btn-default">
-                        Ver Cardápio
+                        Ver cardápio
                     </a>
 
-                    <a href="tel:+61982704199" id="phone_button">
+                    <a href="tel:+5561982704199" id="phone_button">
                         <button class="btn-default">
-                            <i class="fas-solid fa-phone"></i>
+                            <i class="fa-solid fa-phone"></i>
                         </button>
                         (61) 98270-4199
                     </a>
                 </div>
 
                 <div class="social-media-buttons">
-                    <a href="https://wa.me/5561982704199">
+                    <a href="https://wa.me/qr/HEZ4XO7Q3HSLP1">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
 
-                    <a href="https://www.instagram.com/brunogrambo?igsh=Z2tlcXlvMjM4aGJy">
+                    <a href="https://www.facebook.com/bruno.gabriel.71868?mibextid=ZbWKwL">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
 
-                    <a href="https://www.facebook.com/share/HBqWhguffFdsHaj3/?mibextid=qi2Omg">
+                    <a href="https://www.instagram.com/brunogrambo?igsh=Z2tlcXlvMjM4aGJy">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
                 </div>
             </div>
-            <div id="baner">
+
+            <div id="banner">
                 <img src="src/images/hero.png" alt="">
             </div>
         </section>
 
         <section id="menu">
-
             <h2 class="section-title">Cardápio</h2>
             <h3 class="section-subtitle">Nossos pratos especiais</h3>
 
             <div id="dishes">
                 <div class="dish">
                     <div class="dish-heart">
-                        <i class="fas-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img  src="src/images/dish.png" class="dish-image" alt="">
-                
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Nasi Goreng com Camarão
                     </h3>
 
                     <span class="dish-description">
-                        Lore Ipsun dolor
+                        Prato clássico da culinária indonésia que combina arroz frito solto e levemente picante com camarões suculentos. O arroz é salteado com cebolas, alho, pimentões e cenouras, e temperado com molho de soja e um toque de pasta de camarão para um sabor profundo e umami.
                     </span>
 
                     <div class="dish-rate">
@@ -131,28 +131,25 @@
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$24,00</h4>
+                        <h4>R$31,99</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
-
-
                         </button>
                     </div>
                 </div>
 
                 <div class="dish">
                     <div class="dish-heart">
-                        <i class="fas-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img  src="src/images/dish2.png" class="dish-image" alt="">
-                
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+
                     <h3 class="dish-title">
-                        Lorem Ipsum
-                    </h3>
+                        Sanduíche de Pernil                    </h3>
 
                     <span class="dish-description">
-                        Lore Ipsun dolor
+                        Preparado com pernil de alta qualidade, delicadamente temperado com especiarias exclusivas e servido em um pão fresco e crocante, com camadas de cebola caramelizada, picles artesanais e molho especial da casa.
                     </span>
 
                     <div class="dish-rate">
@@ -165,26 +162,26 @@
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$24,00</h4>
+                        <h4>R$24,99</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
-
-
                         </button>
                     </div>
-                </div><div class="dish">
+                </div>
+
+                <div class="dish">
                     <div class="dish-heart">
-                        <i class="fas-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img  src="src/images/dish3.png" class="dish-image" alt="">
-                
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Salada de Kiwi 
                     </h3>
 
                     <span class="dish-description">
-                        Lore Ipsun dolor
+                        Esta salada vibrante é uma explosão de sabores. Experimente a combinação perfeita de frescor e sabor com nossa Salada Refrescante de Kiwi com Morango, com adição de folhas verdes crocantes e um toque de hortelã fresca realçam ainda mais a leveza e o frescor do prato.
                     </span>
 
                     <div class="dish-rate">
@@ -197,26 +194,26 @@
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$24,00</h4>
+                        <h4>R$22,99</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
-
-
                         </button>
                     </div>
-                </div><div class="dish">
+                </div>
+
+                <div class="dish">
                     <div class="dish-heart">
-                        <i class="fas-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img  src="src/images/dish4.png" class="dish-image" alt="">
-                
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Yakisoba com Camarão
                     </h3>
 
                     <span class="dish-description">
-                        Lore Ipsun dolor
+                        um prato delicioso que combina camarões frescos e suculentos com macarrão yakisoba, pimentões vermelhos e amarelos, cenouras crocantes, brotos de feijão e cebola roxa. Refogado com alho e gengibre, o prato é envolvido em um molho de soja e molho de ostra, finalizado com um toque de óleo de gergelim, cebolinha fresca e gergelim torrado.
                     </span>
 
                     <div class="dish-rate">
@@ -229,102 +226,106 @@
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$24,00</h4>
+                        <h4>R$44,99</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
-
-
                         </button>
                     </div>
                 </div>
             </div>
-            
         </section>
-        <section id="testmonnials">
-                <img src="src/images/chef.png" id="testimonial_chef" alt="">
-                
-                <div id="testimonials_content">
-                    <h2 class="section-title">
-                        Depoimentos
-                    </h2>
-                    <h3 class="section-subtitle">
-                        O que os clientes falam sobre nós
-                    </h3>
 
-                    <div id="feedbacks">
-                        <div class="feedback">
-                            <img src="src/images/avatar.png" class="feedback-avatar" alt="">
-                            <div class="feedback-content">
-                                <p>
-                                    Fulana de Tal
-                                    <span>
-                                        <i class="fa-solid fa star"></i>
-                                        <i class="fa-solid fa star"></i>
-                                        <i class="fa-solid fa star"></i>
-                                        <i class="fa-solid fa star"></i>
-                                        <i class="fa-solid fa star"></i>
-                                        <i class="fa-solid fa star"></i>
-                                    </span>
-                                </p>
-                                <p>
-                                    "Loren ipsum dolor sit, amet"
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="feedbacks">
-                        <div class="feedback">
-                            <img src="src/images/avatar.png" class="feedback-avatar" alt="">
-                            <div class="feedback-content">
-                                <p>
-                                    Fulana de Tal
-                                    <span>
-                                        <i class="fa-solid fa star"></i>
-                                        <i class="fa-solid fa star"></i>
-                                        <i class="fa-solid fa star"></i>
-                                        <i class="fa-solid fa star"></i>
-                                        <i class="fa-solid fa star"></i>
-                                        <i class="fa-solid fa star"></i>
-                                    </span>
-                                </p>
-                                <p>
-                                    "Loren ipsum dolor sit, amet"
-                                </p>
-                            </div>
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Jennifer Aniston
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "A comida estava simplesmente divina. O atendimento foi impecável, com uma equipe super atenciosa e simpática. O ambiente é acolhedor e perfeito para uma noite em família. Sem dúvida, voltaremos mais vezes!""
+                            </p>
                         </div>
                     </div>
 
-                    <button class="btn-default">
-                        Ver mais avaliações
-                    </button>
+                    <div class="feedback">
+                        <img src="src/images/avatar2.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Robert JR
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Uma experiência inesquecível no Rambow! Cada prato que experimentamos foi uma explosão de sabores, e o atendimento foi excepcional. A equipe fez com que nos sentíssemos verdadeiramente especiais durante toda a nossa visita. Recomendo fortemente para quem busca uma refeição de alta qualidade e um ambiente sofisticado. Com certeza, voltarei em breve!"
+                            </p>
+                        </div>
+                    </div>
                 </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
         </section>
     </main>
 
     <footer>
         <img src="src/images/wave.svg" alt="">
 
-        <div id="footer_itens">
+        <div id="footer_items">
             <span id="copyright">
-                &copy;2024 Bruno Gabriel Rambo
+                &copy 2024 Bruno Rambo
             </span>
 
             <div class="social-media-buttons">
-                <a href="">
-                    <i class="fa-brands fa-whatsapp">
+                <a href="https://wa.me/qr/HEZ4XO7Q3HSLP1">
+                    <i class="fa-brands fa-whatsapp"></i>
                 </a>
 
-                <a href="">
-                    <i class="fa-brands fa-instagram">
+                <a href="https://www.instagram.com/brunogrambo?igsh=Z2tlcXlvMjM4aGJy">
+                    <i class="fa-brands fa-instagram"></i>
                 </a>
 
-                <a href="">
-                    <i class="fa-brands fa-facebook">
+                <a href="https://www.facebook.com/bruno.gabriel.71868?mibextid=ZbWKwL">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/bruno-gabriel-rambo-0220b430a/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href=" https://github.com/BrunoRambo750 ">
+                    <i class="fa-brands fa-github"></i>
                 </a>
             </div>
         </div>
     </footer>
-
     <script src="src/javascript/script.js"></script>
 </body>
 </html>

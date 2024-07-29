@@ -3,7 +3,7 @@ header {
     padding: 28px 8%;
     position: sticky;
     top: 0;
-    background-color: #fff9ea;
+    background-color: var(--color-primary-1);
     z-index: 3;
 }
 
@@ -14,9 +14,9 @@ header {
     justify-content: space-between;
 }
 
-#nav_Logo {
+#nav_logo {
     font-size: 24px;
-    color: #e9a209;
+    color: var(--color-primary-6);
 }
 
 #nav_list {
@@ -27,9 +27,13 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: #1d1d1d; /* Cor ajustada */
+    color: #1d1d1dad;
     font-weight: 600;
-    border-bottom: 3px solid #ffe100; /* Border combinada */
+}
+
+.nav-item.active a {
+    color: var(--color-neutral-1);
+    border-bottom: 3px solid var(--color-primary-4);
 }
 
 #mobile_btn {
@@ -45,6 +49,7 @@ header {
     #navbar .btn-default {
         display: none;
     }
+
     #mobile_btn {
         display: block;
         border: none;
@@ -52,33 +57,22 @@ header {
         font-size: 1.5rem;
         cursor: pointer;
     }
+
     #mobile_menu.active {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     #mobile_nav_list {
         display: flex;
         flex-direction: column;
         gap: 12px;
-        margin: 12px 0;
+        margin: 12px 0px;
     }
+
     #mobile_nav_list .nav-item {
         list-style: none;
         text-align: center;
-    }
-    #home {
-        min-height: 100%;
-        padding-top: 0;
-    }
-    #banner,
-    #banner img,
-    #home.shape {
-        display: none;
-    }
-    #cta {
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
+    } 
 }
